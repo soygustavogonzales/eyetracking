@@ -1,0 +1,29 @@
+{
+  "name": "eyetracking",
+  "version": "0.0.0",
+  "homepage": "https://github.com/soygustavogonzales/eyetracking",
+  "authors": [
+    "gustavo gon zales <gustavo.gonda@gmail.com>"
+  ],
+  "dependencies":{
+  		"jquery":"latest",
+  		"angular":"latest"
+  	},
+  "description": "sample of eyetracking webapp",
+  "main": "bin/www",
+  "keywords": [
+    "eyetracking",
+    "nodejs",
+    "express",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ]
+}
