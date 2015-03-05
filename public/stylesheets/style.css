@@ -7,3 +7,19 @@
 #player{
 	display: none;
 }
+button {
+	top: 50%;
+	left: 47%;
+	position: fixed;
+}
+.container-narrow {
+   margin: 0 auto;
+   max-width: 600px;
+}
+div#badge {
+    width: 141px;
+    height: 141px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

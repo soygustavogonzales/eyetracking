@@ -1,10 +1,10 @@
 extends ../layout
+
 block content
-	#web
-		canvas#mainCanvas
-		video#player(autoplay)
+	button.btn.btn-primary-btn-lg#startButton(onclick="startButtonClicked()")|Start
+	canvas#mainCanvas
+	video#player(autoplay)
 block scripts
 	script(src="/javascripts/cascades/eye.js")
-	script(src="/javascripts/cascades/frontalface.js")
-	script(src="/javascripts/app_calibration.js")
 	script(src="http://cloud.github.com/downloads/harthur/brain/brain-0.6.0.js")
+	script(src="/javascripts/app_ballTest.js")

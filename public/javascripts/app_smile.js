@@ -1,4 +1,3 @@
-
 			window.onload = function () {
 				var height = 480;
 				var width = 640;
@@ -29,17 +28,14 @@
 					if (trackingData.eyeList.length > 0) {
 						gazeList.forEach(
 							function (eye) {
-								//console.log([eye.eyeData.getHaarRectangle().x,eye.eyeData.getHaarRectangle().y].join(":"));
-								//console.log([eye.centroid.unfiltered.x,eye.centroid.unfiltered.y].join(":"));
-								console.log(eye.gazeVector);
-        image_data = drawer.drawRectangle(
-            image_data,
-            eye.eyeData.getHaarRectangle(),
-            eye.eyeData.getHaarRectangle().width,
-            eye.eyeData.getHaarRectangle().height,
-            5,
-            "yellow"
-        );
+                                image_data = drawer.drawRectangle(
+                                    image_data,
+                                    eye.eyeData.getHaarRectangle(),
+                                    eye.eyeData.getHaarRectangle().width,
+                                    eye.eyeData.getHaarRectangle().height,
+                                    5,
+                                    "blue"
+                                );
 
 								// draws the gaze
 								image_data = drawer.drawLine(
@@ -64,5 +60,4 @@
 					return image_data;
 				};
 				cGaze.setFrameOperator(frameOp);
-			} 
-		
+			}

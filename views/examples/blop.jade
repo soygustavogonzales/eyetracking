@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+	#web
+		canvas#mainCanvas
+		h5: span#blobNumberS
+		h5: span#blobPos
+		video#player(autoplay)
+block scripts
+	script(src="/javascripts/app_blop.js")
