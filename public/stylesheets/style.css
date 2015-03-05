@@ -4,6 +4,19 @@
 	padding: 0;
 	box-sizing:border-box;
 }
+.bolita{
+	position: absolute;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
+.bolita1{
+	background: yellow;
+}
+.bolita2{
+	background: green;
+}
 html,body{
 	width: 100%;
 	height: 100%;
